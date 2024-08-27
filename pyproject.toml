@@ -5,7 +5,10 @@ description = "An API client for Pandago delivery service"
 authors = [
     {name = "Utsob Roy", email = "roy@utsob.me"},
 ]
-dependencies = []
+dependencies = [
+    "pydantic>=2.8.2",
+    "requests>=2.32.3",
+]
 requires-python = ">=3.9"
 readme = "README.md"
 license = {text = "MIT"}
